@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build files
+dist/
+build/
+
+# Logs and debugging
+logs/
+*.log
+*.log.*
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.DS_Store
+Thumbs.db
+
+# MongoDB database files
+dump/
+
+# React-specific files
+*.cache/
+public/static/
+
+# Miscellaneous
+coverage/
+*.bak
+*.orig
+
+# Docker files (if using Docker)
+docker-compose.override.yml
+
+# AWS SAM / Serverless Framework
+.aws-sam/
+.serverless/
+
+# Appwrite (if using Appwrite)
+appwrite.json
+
+# Ignore local uploads/public files (if any)
+/uploads/
+/public/uploads/
